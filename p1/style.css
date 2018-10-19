@@ -1,9 +1,11 @@
-body {background-color: brown;font-size: 50px;}
+body {background-color: lightcoral;font-size: 25px;}
 p{color: aqua ;
 font-size: 24px; 
-background-color: blueviolet;}
+background-color: blueviolet;
+padding: 50px;
+margin: 25px;}
 div img{width: 50px; border: 10px solid;}
-header div img{width: 20px;}
+header div img{width: 200px;}
 nav{color: brown; font-size: 30px;}
 a{color: brown;}
 
