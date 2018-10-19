@@ -1,12 +1,6 @@
-@font-face {font-family: 'Monserrat';
-font-style: italic;
-font: weight 400;
-src: url(Monserrat-Regular.woff2) format('woff2');}
-
-header {background: purple; font-size: 15px; 
-    font-family: Monserrat;
-    color: red;
- }
+body{background-color: gray; font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+img{width: 120px;}
+img {align-self: auto;width: 25px; border: indigo solid; padding-left: 25px;}
 
 h1, h2{color: lightskyblue;}
 h1{font-size: 30px;}
