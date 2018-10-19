@@ -3,9 +3,14 @@ font-style: italic;
 font: weight 400;
 src: url(Monserrat-Regular.woff2) format('woff2');}
 
-header {background: purple; font-size: 15px; 
+body {background: purple; font-size: 15px; 
     font-family: Monserrat;
     color: red;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-position-x: center;
+    background: url(https://i.ytimg.com/vi/4_bAj7VfEYI/maxresdefault.jpg);
  }
 
 h1, h2{color: lightskyblue;}
