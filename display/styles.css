@@ -1,0 +1,21 @@
+body {background-color: gold;}
+
+
+section{background: violet;width: 700px;
+display:block;}
+
+#rojo {width: 100px;
+      background:firebrick;
+      display:block;
+     position:fixed;
+    margin-top: 10px;
+margin-bottom: 10px;
+padding: 20px;
+border-radius: 20px;}
+
+#azul {width: 45px;
+    background: blue;
+      display: inline-block;
+    position:fixed;
+padding: 10px;
+border-radius: 10px;}
