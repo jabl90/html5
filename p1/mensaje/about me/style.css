@@ -1,0 +1,14 @@
+body{background-color: gray; font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+img{width: 120px;}
+img {align-self: auto;width: 25px; border: indigo solid; padding-left: 25px;}
+
+h1, h2{color: lightskyblue;}
+h1{font-size: 30px;}
+h2{font-size: 20px;}
+header {border-bottom: 1px solid brown;}
+a{color: blueviolet;text-decoration-style: none;}
+header p{font-size: 12px;}
+header span{color: yellow;}
+
+div h2 {padding: 25px; margin: 10px;}
+ ul {padding: 5px; margin: 30px;}

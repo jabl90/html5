@@ -1,11 +1,15 @@
 body {background-color: lightcoral;font-size: 25px;}
 p{color: aqua ;
 font-size: 24px; 
-background-color: blueviolet;
+background-color: rgb(63, 22, 100);
 padding: 50px;
 margin: 25px;}
-div img{width: 50px; border: 10px solid;}
+div img{width: 50px; border: 5px solid;}
 header div img{width: 200px;}
 nav{color: brown; font-size: 30px;}
 a{color: brown;}
-
+p.azul{background-color: lightblue;}
+p.rojo{background-color: red;}
+p.verde{background-color: palegreen;}
+.bordeado{border: 2px dashed yellow;}
+article.bordeado{border: 7px solid black;}
