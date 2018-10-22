@@ -10,29 +10,69 @@
 </head>
 
 <body>
-    <h1>Registrate</h1>
+    <h1>Regístrate</h1>
 
     <form method="POST" action="receptionform.html">
         <!--El action nos indica la dirección a la que quiero enviar el formulario
                          POST NOS ENVIA EL FORMULARIO CON LOS VALORES QUE HE INTRODUCIDO-->
         <div>
-            <label for="Nombre:">Nombre:<br/> </label>
-            <input type="text" name="nombre" placeholder="Introduce tu nombre" minlength="3" maxlength="10"
-                pattern=[A-Za-z] required>
+            <label for="Nombre:">Nombre:<br /> </label>
+            <input type="text" name="nombre" placeholder="Introduce tu nombre">
             <!--el pattern nos permite establecer una expresión regular para recabar unos datos específicos, por ejemplo el DNI-->
         </div>
         <div>
-            <label for="Email: ">Email: <br/>  </label>
+            <label for="Email: ">Email: <br /> </label>
             <input type="email" placeholder="Introduce tu email" required>
         </div>
         <div>
-            <label for="Edad: ">Edad: <br/>  </label>
+            <label for="Edad: ">Edad: <br /> </label>
             <input type="number" placeholder="Edad" min="14" max="70" required>
         </div>
         <div>
-            <button>Registrate</button>
-
+            <h4>Sexo <br /></h4>
+            <input type="radio" name="Sexo" id="M" value="1">
+            <!--Le ponemos el mismo name para que no nos deje elegir ambos sexos a la vez
+                                                             Es decir, es la misma variable-->
+            <label for="M">M <br /> </label>
         </div>
+        <div>
+            <input type="radio" name="Sexo" id="F" value="2">
+            <label for="M">F <br /> </label>
+        </div>
+        <div>
+            <h4>Colores favoritos</h4>
+            <input type="checkbox" name="color" id="Rojo" value="Rojo">
+            <label for="Rojo">Rojo <br /> </label>
+        </div>
+        <div>
+            <input type="checkbox" name="color" id="Verde" value="Verde">
+            <label for="Verde">Verde <br /> </label>
+        </div>
+        <div>
+            <input type="checkbox" name="color" id="Azul" value="Azul">
+            <label for="Azul">Azul <br /> </label>
+        </div>
+        <div>
+            <input type="checkbox" name="color" id="Naranja" value="Naranja">
+            <label for="Naranja">Naranja <br /> </label>
+        </div>
+        <!--<div>(label)(id=pais){país:}+select[name=pais id=pais])-->
+        <div>
+            <select name="pais" id="pais">
+                <option value="0" disabled selected>Elegir país</option>
+                <option value="123">Noruega</option>
+                <option value="034">España</option>
+                <option value="1">USA</option>
+            </select>
+            <div>
+                <label class="aloancho" for="cuentame"><strong>cuentame algo de ti <br/></strong></label>
+                <textarea name="cuentame" id="cuentame" placeholder="Once upon a time..."></textarea>
+
+            </div>
+            <div>
+                <button>Regístrate</button>
+
+            </div>
     </form>
 
 </body>
