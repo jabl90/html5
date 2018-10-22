@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>formularios</title>
+</head>
+
+<body>
+    <h1>Registrate</h1>
+
+    <form method="POST" action="receptionform.html">
+        <!--El action nos indica la dirección a la que quiero enviar el formulario
+                         POST NOS ENVIA EL FORMULARIO CON LOS VALORES QUE HE INTRODUCIDO-->
+        <div>
+            <label for="Nombre:">Nombre:<br/> </label>
+            <input type="text" name="nombre" placeholder="Introduce tu nombre" minlength="3" maxlength="10"
+                pattern=[A-Za-z] required>
+            <!--el pattern nos permite establecer una expresión regular para recabar unos datos específicos, por ejemplo el DNI-->
+        </div>
+        <div>
+            <label for="Email: ">Email: <br/>  </label>
+            <input type="email" placeholder="Introduce tu email" required>
+        </div>
+        <div>
+            <label for="Edad: ">Edad: <br/>  </label>
+            <input type="number" placeholder="Edad" min="14" max="70" required>
+        </div>
+        <div>
+            <button>Registrate</button>
+
+        </div>
+    </form>
+
+</body>
+
+</html>

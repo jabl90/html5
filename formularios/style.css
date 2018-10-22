@@ -1,0 +1,11 @@
+body{}
+
+button{background-color:  red; /* Red */
+    border: black; 
+    color: white;
+    padding: 5px 5px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;}
