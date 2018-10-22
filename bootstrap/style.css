@@ -1,0 +1,32 @@
+header> div{height: 100%;
+    background: red;
+    border: 1px solid black;
+    margin-bottom: 1px;
+    margin-top: 1px;
+   
+}
+
+header>nav{ height: 100%;
+background: blue;
+border: 1px solid black;
+margin-bottom: 1px;
+    margin-top: 1px;
+
+}
+
+article>div{ height: 100%;
+background: aqua;
+border: 1px solid black;
+margin-bottom: 1px;
+    margin-top: 1px;
+
+}
+
+footer { height: 100%;
+background: yellow;
+border: 1px solid black;
+margin-bottom: 1px;
+    margin-top: 1px;
+
+}
+
